@@ -17,8 +17,5 @@ manifest:
     - name: zmk-batt-led-indicator
       remote: Gasiro
       revision: main
-    - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
-      remote: srwi
-      revision: master
   self:
     path: config
