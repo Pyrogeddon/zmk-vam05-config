@@ -21,5 +21,5 @@
 include:
   - board: vam05_rev_a
     shield: raw_hid_adapter # <-- required for Raw HID support
-    snippet: studio-rpc-usb-uart
+    snippet: studio-rpc-usb-uart # <-- required for ZMK Studio support
     cmake-args: -DCONFIG_ZMK_STUDIO=y
