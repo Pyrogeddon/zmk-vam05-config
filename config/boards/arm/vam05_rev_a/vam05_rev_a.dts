@@ -227,3 +227,7 @@ zephyr_udc0: &usbd {
 		};
 	};
 };
+
+&mt {
+    tapping-term-ms = 300;
+};
