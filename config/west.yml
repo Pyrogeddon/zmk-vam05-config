@@ -6,6 +6,10 @@ manifest:
       url-base: https://github.com/caksoylar  # <-- rgb remote add
     - name: Gasiro
       url-base: https://github.com/Gasiro
+    - name: zzeneg # <-- required for Raw HID module
+      url-base: https://github.com/zzeneg
+    - name: srwi # <-- required for the KeyPeek Module
+      url-base: https://github.com/srwi
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -17,5 +21,8 @@ manifest:
     - name: zmk-batt-led-indicator
       remote: Gasiro
       revision: main
+    - name: zmk-keypeek-layer-notifier # <-- KeyPeek module
+      remote: srwi
+      revision: master
   self:
     path: config
