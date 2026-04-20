@@ -6,8 +6,6 @@ manifest:
       url-base: https://github.com/caksoylar  # <-- rgb remote add
     - name: Gasiro
       url-base: https://github.com/Gasiro
-    - name: srwi # <-- required for the KeyPeek Module
-      url-base: https://github.com/srwi
   projects:
     - name: zmk
       remote: zmkfirmware
